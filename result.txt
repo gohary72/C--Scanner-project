@@ -1,0 +1,59 @@
+	2: reserved word: int
+	2: ID, name= fact
+	2: (
+	2: reserved word: int
+	2: ID, name= x
+	2: )
+	3: {
+	4: reserved word: if
+	4: (
+	4: ID, name= x
+	4: >
+	4: NUM, val= 1
+	4: )
+	5: reserved word: return
+	5: ID, name= x
+	5: *
+	5: ID, name= fact
+	5: (
+	5: ID, name= x
+	5: -
+	5: NUM, val= 1
+	5: )
+	5: ;
+	6: reserved word: else
+	7: reserved word: return
+	7: NUM, val= 1
+	7: ;
+	8: }
+	10: reserved word: void
+	10: ID, name= main
+	10: (
+	10: reserved word: void
+	10: )
+	11: {
+	12: reserved word: int
+	12: ID, name= x
+	12: ;
+	13: ID, name= x
+	13: =
+	13: ID, name= read
+	13: (
+	13: )
+	13: ;
+	14: reserved word: if
+	14: (
+	14: ID, name= x
+	14: >
+	14: NUM, val= 0
+	14: )
+	14: ID, name= write
+	14: (
+	14: ID, name= fact
+	14: (
+	14: ID, name= x
+	14: )
+	14: )
+	14: ;
+	15: }
+	16: EOF
